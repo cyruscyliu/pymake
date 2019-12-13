@@ -1,6 +1,7 @@
 INTRODUCTION
 
 * I simplify [pymake](https://github.com/mozilla/pymake) by keeping its makefile parser only.
+* to install, try `cd pymake && sudo -H pip3.7 install .`
 
 make.py (and the pymake modules that support it) are an implementation of the make tool
 which are mostly compatible with makefiles written for GNU make.
