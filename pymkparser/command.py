@@ -11,8 +11,8 @@ except when a submake specifies -j1 when the parent make is building in parallel
 
 import os, sys, logging, re
 from optparse import OptionParser
-import data, parserdata, process, util
-import errors
+from pymkparser import data, parserdata, process, util
+from pymkparser import errors
 
 # TODO: If this ever goes from relocatable package to system-installed, this may need to be
 # a configured-in path.

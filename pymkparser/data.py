@@ -4,9 +4,9 @@ A representation of makefile data structures.
 
 import logging, re, os, sys
 from functools import reduce
-import parserdata, parser, functions, process, util, implicit
-import globrelative
-import errors
+from pymkparser import parserdata, parser, functions, process, util, implicit
+from pymkparser import globrelative
+from pymkparser import errors
 
 try:
     from cStringIO import StringIO
