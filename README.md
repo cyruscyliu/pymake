@@ -1,9 +1,9 @@
-INTRODUCTION
+# INTRODUCTION
 
 * I simplified [pymake](https://github.com/mozilla/pymake) by keeping its makefile parser only (I fixed the import problems).
 * Python3
 
-USAGE
+# USAGE
 ```python
 from pymkparser import parser
 
