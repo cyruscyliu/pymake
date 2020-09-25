@@ -1,7 +1,7 @@
 INTRODUCTION
 
-* I simplify [pymake](https://github.com/mozilla/pymake) by keeping its makefile parser only (fix import problem).
-* to install, try `git clone https://github.com/cyruscyliu/pymake.git && cd pymake && sodu -H pip3.7 install .`
+* I simplified [pymake](https://github.com/mozilla/pymake) by keeping its makefile parser only (I fixed the import problems).
+* Python3
 
 USAGE
 ```python
